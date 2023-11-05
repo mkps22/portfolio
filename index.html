@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="a.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div id="helloworld">
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Manish</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                     <div class="dimg" ><img src="https://cdn.iconscout.com/icon/free/png-256/free-night-mode-2-475098.png" alt="" onclick="fun()"></div>
+                     <div class="limg"><img src="https://cdn-icons-png.flaticon.com/512/9937/9937122.png" alt="" onclick="fun2()"></div>
+                    </ul>
+                   
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I am <span class="home__title-color">Manish.</span><br>I am  Web Devloper</h1>
+
+                    <a href="mailto:iammanish2299@gmail.com" class="button">Contact Me</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="callto:9304074908" class="home__social-icon"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href="https://github.com/mkps22" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="img2.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About  Me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="img1.jpeg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="edu">I'am Manish</h2>
+                        <h4 class="about__text">I am a MERN Stack Developer, I tried to gain hands on experience on HTML, CSS, JavaScript and other languages. Right now, I am focussing on diving deeper into Java Script and planning to build unique and user-friendly websites that will help the society.
+                                                Below is a quick overview of my technical skill set and technologies I use..</h4>    
+                                                <h2 class="edu">Education </h2>
+                                                <h3>Currently I am Pursuing MERN Stack From Hyderabad In Vector India</h3>
+                        
+                                                <div class='cv1'>
+                                                    <a href="Mycv.pdf" download="Mycv" target='_blank'>Download My Resume<i class="download fa-solid fa-download"></i></a>
+                                                     <!-- <div className='imgcv'>
+                                                     <img src="cv1.png"/>
+                                                     <img src="cv2.png"/>
+                                                    </div> -->
+                                                    
+                                                   </div>
+
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">WhatEver I have been taught, I am Rating Myself In That Out of 100. I dont Have Complete Knowledge Of Skills I have Mentioned Below.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                       
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">PYTHON</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-react skills__icon' ></i>
+                                <span class="skills__name">REACT</span>
+                            </div>
+                            <div class="skills__bar skills__react">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="https://www.solivatech.com/assets/uploads/media-uploader/mern-stack-development1622729001.png" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">My  Projects</h2>
+                <h2 class="section-title">Pages With Some Functionality</h2>
+
+           
+
+                <div class="work__container bd-grid">
+                    <a href="https://mkps22.github.io/insta-like-button/" class="work__img">
+                        <img src="insta.png" alt="">
+                        <p1>Insta Like Button</p1>
+                    </a>
+                    <a href="https://mkps22.github.io/password-validation/" class="work__img">
+                        <img src="passwordvalidation.png" alt="">
+                        <p1>Password Validation</p1>
+                    </a>
+                    <a href="https://mkps22.github.io/todolist/" class="work__img">
+                        <img src="todolist.png" alt="">
+                        <p1>Todo List</p1>
+                    </a>
+                   
+                    <a href="https://mkps22.github.io/carousel/" class="work__img">
+                        <img src="carousel.png" alt="">
+                        <p1>Carousel</p1>
+                    </a>
+                    <a href="https://mkps22.github.io/keyboard/" class="work__img">
+                        <img src="keyboard.png" alt="">
+                        <p1>Virtual Keyboard</p1>
+                    </a>
+                    <a href="https://mkps22.github.io/calculator/" class="work__img">
+                        <img src="calci.png" alt="">
+                        <p1>Calculator </p1>
+                    </a>
+                    <a href="https://mkps22.github.io/color-change/" class="work__img">
+                        <img src="color.png" alt="">
+                        <p1>On Click Color Change </p1>
+                    </a>
+                    <a href="https://mkps22.github.io/apple-site/" class="work__img">
+                        <img src="apple.png" alt="">
+                        <p1>Apple Website</p1>
+                    </a>
+
+                    <a href="https://mkps22.github.io/labtodolist/" class="work__img">
+                        <img src="labtodolist.png" alt="">
+                        <p1>Another Todolist</p1>
+                    </a>
+ </div>
+</section>
+      
+<section class="work section" id="work">
+    <h2 class="section-title">UI pages</h2>
+   
+
+    <div class="work__container bd-grid">
+      
+        <a href="https://mkps22.github.io/vector-site/" class="work__img">
+            <img src="vector.png" alt="">
+            <p1>Vector India UI</p1>
+        </a>
+        <a href="https://mkps22.github.io/watsapp-page/" class="work__img">
+            <img src="watsap.png" alt="">
+            <p1>WhatsApp UI Page</p1>
+        </a>
+        <a href="https://mkps22.github.io/amazon/" class="work__img">
+            <img src="amazon.png" alt="">
+            <p1>Amazon UI Page</p1>
+        </a>
+        <a href="https://mkps22.github.io/myntra-webpage/" class="work__img">
+            <img src="myntra.png" alt="">
+            <p1>Myntra UI Page</p1>
+        </a>
+        <a href="https://mkps22.github.io/flipcart/" class="work__img">
+            <img src="flipcart.png" alt="">
+            <p1>Flipcart UI Page With Hover Functionality</p1>
+        </a>
+        <a href="https://mkps22.github.io/chessboard/" class="work__img">
+            <img src="chessboard.png" alt="">
+            <p1>ChessBoard UI</p1>
+        </a>
+        <a href="https://mkps22.github.io/fb/" class="work__img">
+            <img src="facebook.png" alt="">
+            <p1>Facebook Page</p1>
+        </a>
+
+        <a href="https://mkps22.github.io/twet/" class="work__img">
+            <img src="twitter.png" alt="">
+            <p1>Twitter Page</p1>
+        </a>
+        
+        <a href="https://mkps22.github.io/linkdin/" class="work__img">
+            <img src="linkdin.png" alt="">
+            <p1>Linkdin Page</p1>
+        </a>
+
+        <a href="https://mkps22.github.io/insta/" class="work__img">
+            <img src="instagram.png" alt="">
+            <p1>Instagram Page</p1>
+        </a>
+
+        <a href="https://mkps22.github.io/simple-form/" class="work__img">
+            <img src="simple form.png" alt="">
+            <p1>Simple Reg Page</p1>
+        </a>
+
+        
+</div>
+</section>
+
+        
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Send" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Manish</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/iammanish69" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/maniiiiissh/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="tel:9304074908" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
+            </div>
+       
+            <p class="footer__copy">&#169; ManishPortfolio. All rigths reserved</p>
+        </footer>
+    </div>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
+        <!--===== MAIN JS =====-->
+        <script src="a.js">
+            
+        </script>
+    </body>
+</html>
